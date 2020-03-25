@@ -12,5 +12,9 @@ public class RegisterPageTest {
 		System.out.println("This is register test and this test is added by Person A");
 		
 	}
-
+	
+	@Test
+	public void registerPageTitle() {
+		System.out.println("This is register page title test and its added by Person B");
+	}
 }
