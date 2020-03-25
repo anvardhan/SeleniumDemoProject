@@ -38,6 +38,9 @@ public class LoginPageTest extends TestBase{
 			e.printStackTrace();
 			System.out.println("Error in loginPageTitleTest: "+e.getMessage());
 		}
+		
+		//Added code from Cloned project
+		System.out.println("Test Completed");
 	}
 	
 	@Test (priority=2)
