@@ -50,8 +50,10 @@ public class ContactsPageTest extends TestBase {
 		}
 		catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("contact lable is not verified--"+e.getMessage());
+			System.out.println("Contact lable is not verified-Made changes to existing code--"+e.getMessage());
 		}
+		
+		System.out.println("Test Complted- This is new line added through develop branch");
 	}
 	
 	@Test(priority=2,enabled=false)
