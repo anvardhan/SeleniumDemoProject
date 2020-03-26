@@ -54,7 +54,7 @@ public class ContactsPageTest extends TestBase {
 			System.out.println("Contact lable is not verified-Made changes to existing code--"+e.getMessage());
 		}
 
-		System.out.println("Test Completed- This is new line added through master branch");
+		System.out.println("Test Completed- This is new line added through master branch --Adding2");
 
 	}
 	
