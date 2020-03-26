@@ -46,14 +46,16 @@ public class ContactsPageTest extends TestBase {
 		Boolean flag = contactsPage.validateContactLabel();
 		try {
 		Assert.assertTrue(flag);
-		System.out.println("user is on Contacts page");
+		
+		System.out.println("User is now on Contacts Page");
 		}
 		catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Contact lable is not verified-Made changes to existing code--"+e.getMessage());
 		}
-		
-		System.out.println("Test Complted- This is new line added through develop branch");
+
+		System.out.println("Test Completed- This is new line added through master branch");
+
 	}
 	
 	@Test(priority=2,enabled=false)
