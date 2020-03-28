@@ -40,7 +40,7 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 	
-	@Test(priority=1,enabled=true)
+	@Test(priority=1,enabled=false)
 	public void validateConatctLabel()
 	{
 		Boolean flag = contactsPage.validateContactLabel();
@@ -54,7 +54,10 @@ public class ContactsPageTest extends TestBase {
 			System.out.println("Contact lable is not verified-Made changes to existing code--"+e.getMessage());
 		}
 
+
+
 		System.out.println("Test Completed- This is new line added through master branch--Adding1");
+
 
 	}
 	
