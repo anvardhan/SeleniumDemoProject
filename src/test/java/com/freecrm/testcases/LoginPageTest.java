@@ -43,7 +43,7 @@ public class LoginPageTest extends TestBase{
 		System.out.println("Test Completed");
 	}
 	
-	@Test (priority=2)
+	@Test (priority=2, enabled=false)
 	public void crmLogoImageTest()
 	{
 		try {
@@ -57,7 +57,7 @@ public class LoginPageTest extends TestBase{
 		}
 	}
 	
-	@Test (priority=3)
+	@Test (priority=3, enabled=false)
 	public void loginTest() throws InterruptedException
 	{
 		homePage = loginPage.loginToApp(prop.getProperty("username"), prop.getProperty("password"));

@@ -1,237 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="178" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
+  <suite name="Suite" duration-ms="58" started-at="2020-03-28T02:27:01 CDT" finished-at="2020-03-28T02:27:01 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="178" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-      <class name="com.freecrm.testcases.LoginPageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="98" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.project.base.TestBase.openBrowser(TestBase.java:49)
-at com.freecrm.testcases.LoginPageTest.setUp(LoginPageTest.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+    <test name="Test" duration-ms="58" started-at="2020-03-28T02:27:01 CDT" finished-at="2020-03-28T02:27:01 CDT">
+      <class name="com.freecrm.testcases.RegisterPageTest">
+        <test-method status="PASS" signature="registerPageTitle()[pri:0, instance:com.freecrm.testcases.RegisterPageTest@a7e666]" name="registerPageTitle" duration-ms="9" started-at="2020-03-28T02:27:01 CDT" finished-at="2020-03-28T02:27:01 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="loginPageTitleTest" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.project.base.TestBase.openBrowser(TestBase.java:49)
-at com.freecrm.testcases.LoginPageTest.setUp(LoginPageTest.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        </test-method> <!-- registerPageTitle -->
+        <test-method status="PASS" signature="resisterTest1()[pri:0, instance:com.freecrm.testcases.RegisterPageTest@a7e666]" name="resisterTest1" duration-ms="1" started-at="2020-03-28T02:27:01 CDT" finished-at="2020-03-28T02:27:01 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
+        </test-method> <!-- resisterTest1 -->
+      </class> <!-- com.freecrm.testcases.RegisterPageTest -->
+      <class name="com.freecrm.testcases.NewClassTest">
+        <test-method status="PASS" signature="newTest1()[pri:0, instance:com.freecrm.testcases.NewClassTest@68bbe345]" name="newTest1" duration-ms="1" started-at="2020-03-28T02:27:01 CDT" finished-at="2020-03-28T02:27:01 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
+        </test-method> <!-- newTest1 -->
+        <test-method status="PASS" signature="newTest2()[pri:0, instance:com.freecrm.testcases.NewClassTest@68bbe345]" name="newTest2" duration-ms="2" started-at="2020-03-28T02:27:01 CDT" finished-at="2020-03-28T02:27:01 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="crmLogoImageTest()[pri:2, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="crmLogoImageTest" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.project.base.TestBase.openBrowser(TestBase.java:49)
-at com.freecrm.testcases.LoginPageTest.setUp(LoginPageTest.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- crmLogoImageTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginTest()[pri:3, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="loginTest" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Selenium\SeleniumWorkspace2\DreamProject\Browser\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.project.base.TestBase.openBrowser(TestBase.java:49)
-at com.freecrm.testcases.LoginPageTest.setUp(LoginPageTest.java:24)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.freecrm.testcases.LoginPageTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-11T17:17:19Z" finished-at="2018-08-11T17:17:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.freecrm.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- newTest2 -->
+      </class> <!-- com.freecrm.testcases.NewClassTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

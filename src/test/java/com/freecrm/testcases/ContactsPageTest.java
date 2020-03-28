@@ -40,7 +40,7 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 	
-	@Test(priority=1,enabled=false)
+	@Test(priority=1,enabled=true)
 	public void validateConatctLabel()
 	{
 		Boolean flag = contactsPage.validateContactLabel();
@@ -108,7 +108,7 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 		
-	@Test(priority=4,enabled=true)
+	@Test(priority=4,enabled=false)
 	public void selectContactNameWebTable()
 	{
 		Boolean flag = contactsPage.selectContactNameWebTable("Aakash Maheshwari");
@@ -182,7 +182,7 @@ public class ContactsPageTest extends TestBase {
 	@AfterMethod
 	public void tearDown()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	
 }

@@ -54,7 +54,7 @@ public class HomePageTest extends TestBase{
 		}
 	}
 	
-	@Test (priority=2,enabled=true)
+	@Test (priority=2,enabled=false)
 	public void verifyCorrectUserName()
 	{
 		testUtil.switchToFrame();
@@ -70,7 +70,7 @@ public class HomePageTest extends TestBase{
 		}
 	}
 	
-	@Test (priority=3)
+	@Test (priority=3, enabled=false)
 	public void clickOnContactsLink()
 	{
 		testUtil.switchToFrame();
@@ -79,7 +79,7 @@ public class HomePageTest extends TestBase{
 		
 	}
 	
-	@Test (priority=4)
+	@Test (priority=4, enabled=false)
 	public void clickOnDealsLink()
 	{
 		testUtil.switchToFrame();
@@ -88,7 +88,7 @@ public class HomePageTest extends TestBase{
 		
 	}
 	
-	@Test (priority=5)
+	@Test (priority=5, enabled=false)
 	public void clickOnTaskLink()
 	{
 		testUtil.switchToFrame();
