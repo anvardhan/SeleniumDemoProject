@@ -17,4 +17,9 @@ public class RegisterPageTest {
 	public void registerPageTitle() {
 		System.out.println("This is register page title test and its added by Person B");
 	}
+	
+	@Test(enabled=true)
+	public void registerTest2() {
+		System.out.println("This is register test commited from Eclipse");
+	}
 }
