@@ -21,5 +21,6 @@ public class RegisterPageTest {
 	@Test(enabled=true)
 	public void registerTest2() {
 		System.out.println("This is register test commited from Eclipse");
+		System.out.println("This is updated in GithUb directly to demonstrate pull from eclipse");
 	}
 }
